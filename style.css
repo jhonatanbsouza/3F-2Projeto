@@ -3,7 +3,7 @@
 :root{
     --cor-de-fundo: #FFDBB5;
     --cor-primaria: #6C4E31;
-    --cor-secundária: #FFEAC5;
+    --cor-secundária: #96763f;
     --font: 'Nunito' sans-serif;
 }
 *{
@@ -56,4 +56,27 @@ nav a:hover{
     transform: scale(0.9);
     /* Cria uma transição com 0.5s para o transform */
     transition: transform 1.5s;
+}
+
+span{
+    color: var(--cor-secundária);
+    font-weight: bold;
+}
+
+footer{
+    background-color: var(--cor-primaria);
+    color: var(--cor-de-fundo);
+    text-align: center;
+}
+
+
+.graficos-container{
+    margin: 5rem;
+}
+
+.graficos-texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--cor-secundária) solid 2px;
 }
